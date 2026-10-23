@@ -24,7 +24,7 @@ let colors = ["red", "green", "blue"]
 //         "Color: green"
 //         "Color: blue"
 //         Use: console.log("Color: " + colors[i])
-for (i = o; i<colors.length;) {
+for (i = 0; i<colors.length;) {
     console.log("Color: " + colors[i])
 }
 
