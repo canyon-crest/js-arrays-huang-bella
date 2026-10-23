@@ -41,7 +41,7 @@ let number = [];
 //         b) Use parseFloat() to convert the input to a number
 //         c) Use .push() to add the number to the array
 for(i = 0; i<5; i++) {
-    parseFloat(prompt("Enter Number " + (i+1))).push(number)
+    number.push(parseFloat(prompt("Enter Number " + (i+1))))
 }
 // STEP 5: Print all the numbers on one line.
 //         Build a string by looping through the array.
